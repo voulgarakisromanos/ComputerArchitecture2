@@ -37,3 +37,11 @@ system.cpu.cpi                               1.733406
 /home/romanos/Desktop/assistant/specsjeng/stats.txt:system.l2.overall_miss_rate::total           0.999945                       # miss rate for overall accesses
 /home/romanos/Desktop/assistant/speclibm/stats.txt:system.l2.overall_miss_rate::total           0.999946                       # miss rate for overall accesses
 /home/romanos/Desktop/assistant/spechmmer/stats.txt:system.l2.overall_miss_rate::total           0.916667                       # miss rate for overall accesses
+
+/home/romanos/Desktop/gem5/spec_results/specmcf-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000                                    
+/home/romanos/Desktop/gem5/spec_results/specsjeng-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000                       
+/home/romanos/Desktop/gem5/spec_results/speclibm-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000                                
+/home/romanos/Desktop/gem5/spec_results/specbzip-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000                                                      
+/home/romanos/Desktop/gem5/spec_results/spechmmer-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000        
+
+system.cpu_clk_domain.clock 500  αντι για το entry της εργασιας
