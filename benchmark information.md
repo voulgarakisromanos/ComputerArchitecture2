@@ -1,4 +1,4 @@
-#### specbzip
+# bzip
 execution time
 sim_secods: 0.084159
 
@@ -15,7 +15,7 @@ L2 Miss Rates
 system.l2.overall_miss_rate::total 0.281708
 
 
-#### specmcf
+# mcf
 execution time
 sim_secods: 0.055477
 
@@ -33,7 +33,7 @@ system.l2.overall_miss_rate::total 0.724040
 
 
 
-#### spechmmer
+# hmmer
 execution time
 sim_secods: 0.059368
 
@@ -51,7 +51,7 @@ system.l2.overall_miss_rate::total 0.082246
 
 
 
-#### specsjeng
+### sjeng
 execution time
 sim_secods: 0.513541
 
@@ -69,7 +69,7 @@ system.l2.overall_miss_rate::total 0.999979
 
 
 
-#### speclibm
+## libm
 execution time
 sim_secods: 0.174681
 
