@@ -1,91 +1,88 @@
 # bzip
-execution time
-sim_secods: 0.084159
+Χρόνος εκτέλεσης:
+sim_secods: 0.086670
 
 CPI(cycles per instruction)
-system.cpu.cpi: 1.683172
+system.cpu.cpi: 1.733406
 
 L1 Data Miss Rates
-system.cpu.dcache.overall_miss_rate::total 0.014840
+system.cpu.dcache.overall_miss_rate::total 0.014114
 
 L1 Instruction Miss Rates
-system.cpu.icache.overall_miss_rate::total 0.000074
+system.cpu.icache.overall_miss_rate::total 0.000060
 
 L2 Miss Rates
-system.l2.overall_miss_rate::total 0.281708
+system.l2.overall_miss_rate::total  0.277825
 
 
 # mcf
-execution time
-sim_secods: 0.055477
+Χρόνος εκτέλεσης:
+sim_secods: 0.056126
 
 CPI(cycles per instruction)
-system.cpu.cpi: 1.109538
+system.cpu.cpi: 1.122521
 
 L1 Data Miss Rates
-system.cpu.dcache.overall_miss_rate::total 0.002051
+system.cpu.dcache.overall_miss_rate::total 0.002124
 
 L1 Instruction Miss Rates
-system.cpu.icache.overall_miss_rate::total 0.000037
+system.cpu.icache.overall_miss_rate::total 0.000039 
 
 L2 Miss Rates
-system.l2.overall_miss_rate::total 0.724040
+system.l2.overall_miss_rate::total 0.717367
 
 
 
 # hmmer
-execution time
-sim_secods: 0.059368
+Χρόνος εκτέλεσης:
+sim_secods: 0.000058 ???????????????????????????
 
 CPI(cycles per instruction)
-system.cpu.cpi: 1.187362
+system.cpu.cpi: 7.665585 ???????????????
 
 L1 Data Miss Rates
-system.cpu.dcache.overall_miss_rate::total 0.001645
+system.cpu.dcache.overall_miss_rate::total 0.052195 ??????????????????
 
 L1 Instruction Miss Rates
-system.cpu.icache.overall_miss_rate::total 0.000205
+system.cpu.icache.overall_miss_rate::total 0.094783 ??????????????????
 
 L2 Miss Rates
-system.l2.overall_miss_rate::total 0.082246
+system.l2.overall_miss_rate::total 0.916667 ???????????????????
 
 
 
-### sjeng
-execution time
-sim_secods: 0.513541
+# sjeng
+Χρόνος εκτέλεσης:
+sim_secods: 0.513954
 
 CPI(cycles per instruction)
-system.cpu.cpi: 10.27081
+system.cpu.cpi: 10.279078 
 
 L1 Data Miss Rates
-system.cpu.dcache.overall_miss_rate::total 0.121829
+system.cpu.dcache.overall_miss_rate::total 0.121831
 
 L1 Instruction Miss Rates
-system.cpu.icache.overall_miss_rate::total 0.000020
+system.cpu.icache.overall_miss_rate::total 0.000015
 
 L2 Miss Rates
-system.l2.overall_miss_rate::total 0.999979
+system.l2.overall_miss_rate::total 0.999945
 
 
 
-## libm
-execution time
-sim_secods: 0.174681
+# libm
+Χρόνος εκτέλεσης:
+sim_secods: 0.175091
 
 CPI(cycles per instruction)
-system.cpu.cpi: 3.493611
+system.cpu.cpi: 3.501825
 
 L1 Data Miss Rates
 system.cpu.dcache.overall_miss_rate::total 0.060971
 
 L1 Instruction Miss Rates
-system.cpu.icache.overall_miss_rate::total 0.000099
+system.cpu.icache.overall_miss_rate::total 0.000103
 
 L2 Miss Rates
-system.l2.overall_miss_rate::total 0.999927
+system.l2.overall_miss_rate::total 0.999946
 
-
-Some benchmarks may be more demanding or more unpredictable
-, thus have more time, higher CPI and generally higher miss rates
-especially in L1 Data and L2 Cache.
+Κάποια benchmark φαίνεται να είναι πιο απαιτητικά ή απρόβλεπτα. Σε κάποια από αυτά παρατηρείται μεγαλύτερος χρόνο εκτέλεσης, μεγαλύτερο CPI, μεγαλύτερα miss rates ειδικά στις L1 data και L2 Cache.
