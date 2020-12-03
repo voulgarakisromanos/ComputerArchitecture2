@@ -40,7 +40,7 @@ sim_seconds: 0.704063
 system.clk_domain.clock: 1000
 system.cpu_clk_domain.clock: 1000
 
-###**CPU Clock: 2GHz**
+### **CPU Clock: 2GHz**
 execution time:
 sim_seconds: 0.513541
 
