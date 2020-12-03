@@ -46,4 +46,12 @@ system.cpu.cpi                               1.733406
 
 system.cpu_clk_domain.clock 500  αντι για το entry της εργασιας
 
+Bzip 1GHz
 sim_seconds                                  0.165948                       # Number of seconds simulated
+system.clk_domain.clock:  1000
+system.cpu_clk_domain.clock: 1000
+
+Bzip 2GHz
+sim_seconds                                  0.086670                       # Number of seconds simulated
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
