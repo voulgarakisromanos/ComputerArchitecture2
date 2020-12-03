@@ -20,7 +20,7 @@ system.clk_domain.clock: 1000 # Clock period in ticks
 
 system.cpu_clk_domain.clock: 500 # Clock period in ticks
 
-Το system clock χρειάζεται για να συγχρονίζει όλα τα κομμάτια της προσομοίωσης. Γενικά, οι συχνότητες όλων των ρολογιών πρέπει να είναι πολλαπλάσιες της συχνότητας του system clock. Στην περίπτωσή μας η συχνότητα του system clock είναι 1GHz και η συχνότητα του CPU clock 2GHz
+Το system clock χρειάζεται για να συγχρονίζει όλα τα κομμάτια της προσομοίωσης. Γενικά, οι συχνότητες όλων των ρολογιών πρέπει να είναι πολλαπλάσιες της συχνότητας του system clock. Στην περίπτωσή μας η συχνότητα του system clock είναι 1GHz και η συχνότητα του CPU clock 2GHz.
 
 
 ## **config.json @2 GHz**
