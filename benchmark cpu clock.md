@@ -61,4 +61,4 @@ clk_domain: 1000
 cpu_clk_domain: 500
 
 
-The scaling for different CPU clocks is almost identical with minor differences. This happens because CPU clock is higher, thus CPU instruction and data accesses are requested more frequently. RAM clock though is the same, this means that memory access is not faster and the CPU will wait more often? than previously. Consequently, CPI will be higher. Concluding, it is logical that the scaled execution time is a bit lower than the real one.
+The scaling for different CPU clocks is almost identical with minor differences. This happens because CPU clock is higher, thus CPU instruction and data accesses are requested more frequently. RAM clock though is the same, this means that memory access is not faster and the CPU will wait more often than previously. Consequently, CPI will be higher. Concluding, it is logical that the scaled execution time is a bit lower than the real one.
