@@ -1,4 +1,4 @@
-# **specbzip**
+# **bzip**
 
 ## **stats.txt**
 
