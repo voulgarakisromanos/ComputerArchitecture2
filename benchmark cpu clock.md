@@ -5,7 +5,6 @@
 ### **CPU Clock: 1GHz**
 
 execution time:
-
 sim_seconds 0.165948 # Number of seconds simulated
 
 system.clk_domain.clock: 1000 # Clock period in ticks
@@ -15,7 +14,6 @@ system.cpu_clk_domain.clock: 1000 # Clock period in ticks
 ### **CPU Clock: 2GHz**
 
 execution time:
-
 sim_seconds 0.086670 # Number of seconds simulated
 
 system.clk_domain.clock: 1000 # Clock period in ticks
@@ -40,7 +38,6 @@ CPU Cluster is a group of CPUs that have the same CPU clock, Cache, memory bandw
 ### **CPU Clock: 1GHz**
 
 execution time:
-
 sim_seconds 0.109954 # Number of seconds simulated
 
 system.clk_domain.clock: 1000 # Clock period in ticks
@@ -51,7 +48,6 @@ system.cpu_clk_domain.clock: 1000 # Clock period in ticks
 ### **CPU Clock: 2GHz**
 
 execution time:
-
 sim_seconds: 0.056126 # Number of seconds simulated
 
 system.clk_domain.clock 1000 # Clock period in ticks
