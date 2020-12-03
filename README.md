@@ -55,3 +55,13 @@ Bzip 2GHz
 sim_seconds                                  0.086670                       # Number of seconds simulated
 system.clk_domain.clock                          1000                       # Clock period in ticks
 system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+mcf 1GHz
+sim_seconds                                  0.109954                       # Number of seconds simulated
+system.clk_domain.clock:  1000
+system.cpu_clk_domain.clock: 1000
+
+mcf 2GHz 
+sim_seconds                                  0.056126                       # Number of seconds simulated
+system.clk_domain.clock                          1000                       # Clock period in ticks
+system.cpu_clk_domain.clock                       500                       # Clock period in ticks
