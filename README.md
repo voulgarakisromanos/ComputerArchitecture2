@@ -45,3 +45,5 @@ system.cpu.cpi                               1.733406
 /home/romanos/Desktop/gem5/spec_results/spechmmer-CPU-CLK=2GHz/stats.txt:system.clk_domain.clock                          1000        
 
 system.cpu_clk_domain.clock 500  αντι για το entry της εργασιας
+
+sim_seconds                                  0.165948                       # Number of seconds simulated
