@@ -65,3 +65,6 @@ mcf 2GHz
 sim_seconds                                  0.056126                       # Number of seconds simulated
 system.clk_domain.clock                          1000                       # Clock period in ticks
 system.cpu_clk_domain.clock                       500                       # Clock period in ticks
+
+Συνάρτηση κόστους:
+$$ cost = (i_cache_size ) $$
