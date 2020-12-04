@@ -16,4 +16,5 @@
 Κόστος = (L1<sub>cost</sub>+L2<sub>cost</sub>)&#8226;(Μέγεθος Cache Line)
 
 Με:
+* L2<sub>cost</sub> = ((Μέγεθος L2 Cache)&#8226;(L2 Cache Associativity))<sup>2</sup>
 * L1<sub>cost</sub> = [ (Μέγεθος Data Cache)&#8226;(Data Cache Associativity) + (Μέγεθος Instruction Cache)&#8226;(Instruction Cache Associativity) ]<sup>2</sup>
