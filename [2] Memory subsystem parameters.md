@@ -37,4 +37,10 @@
   
   Γενικότερα παρατηρούμε πως για μείωση του miss-rate στην Data Cache έχουμε ταυτόχρονα μείωση του CPI
   
+  Με τις εξής ρυθμίσεις:
+  '''sh
+--cpu-type=MinorCPU --caches --l2cache --l1d_size=128kB --l1i_size=64kB --l2_size=512kB --l1i_assoc=1 --l1d_assoc=2 --l2_assoc=2 --cacheline_size=128 --cpu-clock=2GHz 
+  '''
+  Πετύχαμε  CPI = 2.512999  από  το baseline του 3.456934 με cacheline_size=64  l1d_assoc=1 και l1d_size=64kB
+  
 ## bzip
