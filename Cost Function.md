@@ -16,5 +16,16 @@
 Κόστος = (L1<sub>cost</sub>+L2<sub>cost</sub>)&#8226;(Μέγεθος Cache Line)
 
 Με:
-* L2<sub>cost</sub> = ((Μέγεθος L2 Cache)&#8226;(L2 Cache Associativity))<sup>2</sup>
-* L1<sub>cost</sub> = [ (Μέγεθος Data Cache)&#8226;(Data Cache Associativity) + (Μέγεθος Instruction Cache)&#8226;(Instruction Cache Associativity) ]<sup>2</sup>
+* L2<sub>cost</sub> = (Μέγεθος L2 Cache)&#8226;(L2 Cache Associativity)
+* L1<sub>cost</sub> = 0.25&#8226;[ (Μέγεθος Data Cache)&#8226;(Data Cache Associativity) + (Μέγεθος Instruction Cache)&#8226;(Instruction Cache Associativity) ]<sup>2</sup>
+
+
+Στον πίνακα παρακάτω φαίνονται για διάφορες τιμές του μεγέθους της L1 το απαιτούμενο μέγεθος της L2 ώστε τα σχετικά κόστη των δύο cache να είναι ίσα. Επιλέγεται two-way associativity για όλες τις cache.
+
+
+
+|   L1  |   L2   |
+|:-----:|:------:|
+|  8 Kb |  32 Kb |
+| 32 Kb | 512 Kb |
+| 64 Kb |  2 Mb  |
