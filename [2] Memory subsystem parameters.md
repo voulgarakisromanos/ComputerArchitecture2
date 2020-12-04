@@ -13,20 +13,23 @@
 
 Η συχνότητα του CPU clock επιλέχθηκε 2 GHz.
 
-## mcf
-
-
-
-## bzip
-
-
-
-
-## sjeng
-
-
-
 ## libm
+  #### Σταδιακή αύξηση μεγέθους της Instruction Cache
+  Παρατηρείται οριακή μείωση του miss rate στην I-cache ενώ τα υπόλοιπα χαρακτηριστικά της προσομοίωσης δεν έχουν σημαντικές διαφορές.
 
-
-
+  #### Σταδιακή αύξηση μεγέθους της Data Cache
+  Παρατηρούμε μείωση του CPI και του miss rate στην D-cache
+  
+  #### Σταδιακή αύξηση μεγέθους της L2 Cache
+  Δεν παρατηρούνται σημαντικές διαφορές 
+  
+  #### Instruction Cache Associativity = 2
+  Μειώνεται το miss rate στην I-cache
+  
+  #### Data Cache Associativity = 2
+  Μειώνεται το CPI, το miss rate στην D-cache και το miss rate στην L2 αυξάνεται
+  
+  #### L2 Cache Associativity = 1
+  Δεν παρατηρούνται σημαντικές διαφορές 
+  
+## bzip
