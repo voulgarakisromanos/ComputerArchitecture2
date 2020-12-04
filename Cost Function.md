@@ -13,5 +13,5 @@
 Είναι προφανές ότι για μεγαλύτερα μεγέθη cache, cacheline και associativity το κόστος αυξάνεται. Είναι επίσης γνωστό, ότι η L1 είναι σημαντικά ακριβότερη της L2.
 Για την υλοποίηση της συνάρτησης κόστους θεωρούμε πως τα κόστη των L1, L2 είναι ανεξάρτητα μεταξύ τους. Τελικά:
 
-Cost = (L1+L2)Size<sub>Cacheline</sub>
+Cost = (L1<sub>cost</sub>+L2<sub>cost</sub>)<p>I will display &#8226;</p>Size<sub>Cacheline</sub>
 
