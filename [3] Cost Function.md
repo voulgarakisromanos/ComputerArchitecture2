@@ -23,5 +23,5 @@
 Μένει να προσδιορίσουμε μια τιμή για τις παραπάνω παραμέτρους. Μια συνήθης διάταξη είναι 32kB+32kB L1 cache (instruction + data) και 256kB L2 cache (πχ Intel Core i7-10700 κ.α). Αν υποθέσουμε ότι L1 και L2 cache κοστίζουν το ίδιο συνολικά,  (L1 size cost coefficient) = 5&#8226;(L2 size cost coefficient). Με βάση την από κάτω πηγή γίνεται η υπόθεση ότι (L2 Associativity cost coefficient) = (L1 Associativity cost coefficient) = 3.
 
 Σχετική βιβλιογραφία:
-https://esc.fnwi.uva.nl/thesis/centraal/files/f1720749465.pdf
-https://www.cpu-world.com/CPUs/Core_i7/Intel-Core%20i7%20i7-10700K.html
+1.https://esc.fnwi.uva.nl/thesis/centraal/files/f1720749465.pdf
+2.https://www.cpu-world.com/CPUs/Core_i7/Intel-Core%20i7%20i7-10700K.html
