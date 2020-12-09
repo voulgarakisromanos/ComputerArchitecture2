@@ -16,6 +16,6 @@
 Κόστος = (L1i<sub>cost</sub>+L1d<sub>cost</sub>+L2<sub>cost</sub>)
 
 Με:
-* L2<sub>cost</sub> = (Μέγεθος L2 Cache)&#8226;X + (L2 Cache Associativity)&#8226;(L2 Associativity cost coefficient)
-* L1i<sub>cost</sub> = (Μέγεθος L1 instruction Cache)&#8226;X + (L1 instructtion Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
-* L1d<sub>cost</sub> = (Μέγεθος L1 data Cache)&#8226;X + (L1 data Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
+* L2<sub>cost</sub> = (Μέγεθος L2 Cache)&#8226;(L2 size cost coefficient) + (L2 Cache Associativity)&#8226;(L2 Associativity cost coefficient)
+* L1i<sub>cost</sub> = (Μέγεθος L1 instruction Cache)&#8226;(L1 size cost coefficient)  + (L1 instructtion Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
+* L1d<sub>cost</sub> = (Μέγεθος L1 data Cache)&#8226;(L1 size cost coefficient)  + (L1 data Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
