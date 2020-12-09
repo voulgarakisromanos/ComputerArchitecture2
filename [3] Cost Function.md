@@ -24,3 +24,4 @@
 
 Σχετική βιβλιογραφία:
 https://esc.fnwi.uva.nl/thesis/centraal/files/f1720749465.pdf
+https://www.cpu-world.com/CPUs/Core_i7/Intel-Core%20i7%20i7-10700K.html
