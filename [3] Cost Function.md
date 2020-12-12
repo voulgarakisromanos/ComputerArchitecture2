@@ -17,7 +17,7 @@
 
 Με:
 * L2<sub>cost</sub> = (Μέγεθος L2 Cache)&#8226;(L2 size cost coefficient) + (L2 Cache Associativity)&#8226;(L2 Associativity cost coefficient)
-* L1i<sub>cost</sub> = (Μέγεθος L1 instruction Cache)&#8226;(L1 size cost coefficient)  + (L1 instructtion Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
+* L1i<sub>cost</sub> = (Μέγεθος L1 instruction Cache)&#8226;(L1 size cost coefficient)  + (L1 instruction Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
 * L1d<sub>cost</sub> = (Μέγεθος L1 data Cache)&#8226;(L1 size cost coefficient)  + (L1 data Cache Associativity)&#8226;(L1 Associativity cost coefficient) 
 
 Μένει να προσδιορίσουμε μια τιμή για τις παραπάνω παραμέτρους. Μια συνήθης διάταξη είναι 32kB+32kB L1 cache (instruction + data) και 256kB L2 cache (πχ Intel Core i7-10700 κ.α). Αν υποθέσουμε ότι L1 και L2 cache κοστίζουν το ίδιο συνολικά,  (L1 size cost coefficient) = 5&#8226;(L2 size cost coefficient) = 5. Με βάση την από κάτω πηγή γίνεται η υπόθεση ότι (L2 Associativity cost coefficient) = (L1 Associativity cost coefficient) = 3.
@@ -33,7 +33,7 @@
 Επιλέγοντας:
 | Μέγεθος Icache | Μέγεθος DCache | Μέγεθος Cache Line | Μέγεθος L2 Cache |  ICache assoc |  DCache assoc |    L2 assoc    |
 |:--------------:|:--------------:|:------------------:|:----------------:|:-------------:|:-------------:|:--------------:|
-|      16 Kb     |     128 Kb     |        128 B       |      1024 Kb     | Direct-mapped | Direct-mapped | Dirrect-mapped |
+|      16 Kb     |     128 Kb     |        128 B       |      1024 Kb     | Direct-mapped | Direct-mapped | Direct-mapped |
 
 Παίρνουμε:
 |    CPI   | DCache miss rate | ICache miss rate | L2 miss rate |
@@ -50,7 +50,7 @@
 Επιλέγοντας:
 | Μέγεθος Icache | Μέγεθος DCache | Μέγεθος Cache Line | Μέγεθος L2 Cache |  ICache assoc |  DCache assoc |    L2 assoc    |
 |:--------------:|:--------------:|:------------------:|:----------------:|:-------------:|:-------------:|:--------------:|
-|      16 Kb     |     32 Kb      |        64 B        |      128 Kb      | Direct-mapped | Direct-mapped | Dirrect-mapped |
+|      16 Kb     |     32 Kb      |        64 B        |      128 Kb      | Direct-mapped | Direct-mapped | Direct-mapped |
 
 
 Παίρνουμε:
@@ -69,7 +69,7 @@
 Επιλέγοντας:
 | Μέγεθος Icache | Μέγεθος DCache | Μέγεθος Cache Line | Μέγεθος L2 Cache |  ICache assoc |  DCache assoc |    L2 assoc    |
 |:--------------:|:--------------:|:------------------:|:----------------:|:-------------:|:-------------:|:--------------:|
-|      16 Kb     |     128 Kb     |        32 B        |       128 Kb     | Direct-mapped |    two-way    | Dirrect-mapped |
+|      16 Kb     |     128 Kb     |        32 B        |       128 Kb     | Direct-mapped |    two-way    | Direct-mapped |
 
 Παίρνουμε:
 |    CPI   | DCache miss rate | ICache miss rate | L2 miss rate |
@@ -95,7 +95,7 @@
 Επιλέγοντας:
 | Μέγεθος Icache | Μέγεθος DCache | Μέγεθος Cache Line | Μέγεθος L2 Cache |  ICache assoc |  DCache assoc |    L2 assoc    |
 |:--------------:|:--------------:|:------------------:|:----------------:|:-------------:|:-------------:|:--------------:|
-|      64 Kb     |     64 Kb      |       128 B        |      128 Kb      |    two-way    | Direct-mapped | Dirrect-mapped |
+|      64 Kb     |     64 Kb      |       128 B        |      128 Kb      |    two-way    | Direct-mapped | Direct-mapped |
 
 Παίρνουμε:
 |    CPI   | DCache miss rate | ICache miss rate | L2 miss rate |
