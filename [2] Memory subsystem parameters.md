@@ -250,10 +250,10 @@ Tο miss-rate της I-cache παραμένει σταθερό.
 [L2S_DCM]: https://i.ibb.co/mzSbxr2/L2S-DCM.jpg
 [L2S_ICM]: https://i.ibb.co/RNv1M8X/L2S-ICM.jpg
 [L2S_L2M]: https://i.ibb.co/gVjfSdQ/L2S-L2M.jpg
-[CLS_CPI]: https://i.ibb.co/qRW43Hg/CLS-CPI.jpg
-[CLS_DCM]: https://i.ibb.co/Mgtz99f/CLS-DCM.jpg
-[CLS_ICM]: https://i.ibb.co/gy8Mzyt/CLS-ICM.jpg
-[CLS_L2M]: https://i.ibb.co/TMSFcSY/CLS-L2M.jpg
+[CLS_CPI]: https://i.ibb.co/cxr04tg/CLS-CPI.jpg
+[CLS_DCM]: https://i.ibb.co/J3pxDhQ/CLS-DCM.jpg
+[CLS_ICM]: https://i.ibb.co/88jmjMy/CLS-ICM.jpg
+[CLS_L2M]: https://i.ibb.co/B28BssT/CLS-L2M.jpg
 [DCA_CPI]: https://i.ibb.co/qpLWxWR/DCA-CPI.jpg
 [DCA_DCM]: https://i.ibb.co/Lx4VhHk/DCA-DCM.jpg
 [DCA_ICM]: https://i.ibb.co/1XvPVJ8/DCA-ICM.jpg
