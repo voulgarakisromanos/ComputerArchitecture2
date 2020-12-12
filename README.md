@@ -8,17 +8,17 @@
 
 # Ερώτημα 1.1
 #### **L1 data cache**
-size : 64 KB  
-SetAssociative  assoc=2 
-block_size=64
+| Μέγεθος | Associativity | Μέγεθος Block |
+|:-------:|:-------------:|:-------------:|
+|  64 Kb  |       2       |       64      |
 #### **L1 instruction cache** 
-size : 32 KB 32768 
-SetAssociative assoc=2 
-block_size=64 
+| Μέγεθος | Associativity | Μέγεθος Block |
+|:-------:|:-------------:|:-------------:|
+|  32 Kb  |       2       |       64      |
 #### **L2 cache** 
-size : 2 MB 
-SetAssociative assoc=8 
-block_size=64
+| Μέγεθος | Associativity | Μέγεθος Block |
+|:-------:|:-------------:|:-------------:|
+| 2048 Kb |       2       |       64      |
 
 
 
